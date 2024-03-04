@@ -1,7 +1,8 @@
 name: webview_location
-description: Demonstrates how to use the webview_location plugin.
+description: A Flutter package designed to display Google Maps locations by place name in a WebView for both Android and iOS platforms. Ideal for applications that require location-based features without leaving the app interface. Easy to integrate and highly customizable, it provides a seamless user experience across different operating systems.
 version: 0.0.1
 homepage:
+repository: https://github.com/i-aiymen/webview_location
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
@@ -10,11 +11,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  webview_flutter: ^4.2.4
 
 dev_dependencies:
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
