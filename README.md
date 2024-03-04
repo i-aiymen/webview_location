@@ -1,39 +1,33 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# webview_location
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+[![pub package](https://img.shields.io/pub/v/webview_location.svg)](https://pub.dev/packages/webview_location)
+[![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+A Flutter package designed to display Google Maps locations by place name in a WebView for both Android and iOS platforms. Ideal for applications that require location-based features without leaving the app interface. Easy to integrate and highly customizable, it provides a seamless user experience across different operating systems.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Features Supported
 
-## Features
+See the example app for detailed implementation information.
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+| Features               | Android            | iOS                | macOS                | Web | Windows |
+|------------------------|--------------------|--------------------|----------------------|-----|---------|
+| View location          | :heavy_check_mark: | :heavy_check_mark: | :x:                  | :x: | :x:     |
 
-## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Platform Support
+
+| Android | iOS | macOS | Web | Linux | Windows |
+|---------|-----|-------|-----|-------|---------|
+| ✔       | ✔   | :x:     | :x:   | :x:   | :x:     |
+
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+Import the package with:
+```
+import 'package:webview_location/webview_location.dart';
 ```
 
-## Additional information
+Add the `WebViewLocation` widget to your app and pass the `location` parameter to display the location in a WebView. The `location` parameter is a `String` that represents the place name to be displayed in the WebView.
+See the example app for detailed implementation information.
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
