@@ -1,10 +1,10 @@
 name: webview_location
-description: "A new Flutter package project."
+description: "A Flutter package designed to display Google Maps locations by place name in a WebView for both Android and iOS platforms. Ideal for applications that require location-based features without leaving the app interface. Easy to integrate and highly customizable, it provides a seamless user experience across different operating systems."
 version: 0.0.1
 homepage:
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
+  sdk: ">=3.3.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
