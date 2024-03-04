@@ -16,14 +16,27 @@ class ShowLocation extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => const ShowLocationInWebview(
-                locationName: 'New York',
-              ),
+              builder: (context) => const ViewLocation(),
             ),
           );
         },
         child: const Text('Show Location in Webview'),
       )),
     );
+  }
+}
+
+class ViewLocation extends StatelessWidget {
+  const ViewLocation({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          title: const Text('View Location'),
+        ),
+        body: const ShowLocationInWebview(
+          locationName: 'Yonago, Tottori, Japan',
+        ));
   }
 }
